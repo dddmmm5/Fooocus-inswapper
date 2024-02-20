@@ -2,6 +2,7 @@
 
 !! git checkout 67f887c
 
+```
 git clone https://github.com/machineminded/Fooocus-inswapper.git
 cd Fooocus-inswapper
 git checkout 67f887c
@@ -17,7 +18,7 @@ python entry_with_update.py --listen
 deavtivate
 conda deactivate
 source fooocusins_env/bin/deavtivate
-
+```
 
 
 This is a fork of [Fooocus](https://github.com/lllyasviel/Fooocus).  This fork integrates the following:
