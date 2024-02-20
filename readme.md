@@ -1,5 +1,25 @@
 # Fooocus-inswapper
 
+!! git checkout 67f887c
+
+git clone https://github.com/machineminded/Fooocus-inswapper.git
+cd Fooocus-inswapper
+git checkout 67f887c
+python3 -m venv fooocusins_env
+source fooocusins_env/bin/activate
+pip install -r requirements_versions.txt
+
+source fooocusins_env/bin/activate
+python entry_with_update.py --listen
+
+
+
+deavtivate
+conda deactivate
+source fooocusins_env/bin/deavtivate
+
+
+
 This is a fork of [Fooocus](https://github.com/lllyasviel/Fooocus).  This fork integrates the following:
 
 * Insightface/[inswapper](https://github.com/haofanwang/inswapper) library used by roop, ReActor, and others
